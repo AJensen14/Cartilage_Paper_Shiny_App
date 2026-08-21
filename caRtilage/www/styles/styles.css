@@ -1,0 +1,173 @@
+/* ---------- base ---------- */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f7f8;
+  color: #2d3436;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 15px 40px 15px;
+}
+
+h1 {
+  font-weight: 600;
+  color: #1f4e5f;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f4e5f;
+  margin-top: 0;
+}
+
+/* ---------- navbar (Bootstrap 3 default classes) ---------- */
+.navbar-default {
+  background-color: #1f4e5f;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #d6e4ea;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+  background-color: #2a6379;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #163a47;
+}
+
+/* ---------- home page ---------- */
+.hero {
+  background: linear-gradient(135deg, #1f4e5f 0%, #2f7d92 100%);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 45px 40px;
+  margin: 15px 0 25px 0;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 42px;
+  margin: 0 0 8px 0;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #d6e4ea;
+  margin: 0;
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 22px 15px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.stat-number {
+  font-size: 34px;
+  font-weight: 700;
+  color: #1f4e5f;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #7a8a91;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+
+/* ---------- content blocks ---------- */
+.content-section {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin-bottom: 22px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.content-section p,
+.content-section li {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.page-intro {
+  font-size: 15px;
+  color: #5a6a70;
+  max-width: 900px;
+  margin-bottom: 25px;
+}
+
+.help-text {
+  color: #7a8a91;
+  font-size: 13px;
+}
+
+/* ---------- DE page sidebar ---------- */
+.de-sidebar {
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.de-sidebar h4 {
+  color: #1f4e5f;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.sig-box {
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.sig-up   { background-color: #d84b3b; }
+.sig-down { background-color: #3b7dd8; }
+
+/* ---------- contact ---------- */
+.contact-card h3 {
+  margin-top: 0;
+  color: #1f4e5f;
+}
+
+/* ---------- tables ---------- */
+table.dataTable {
+  font-size: 14px;
+}
+
+/* ---------- tabs inside the DE pages ---------- */
+.nav-tabs > li > a {
+  color: #1f4e5f;
+}
+
+.nav-tabs > li.active > a {
+  font-weight: 600;
+}
